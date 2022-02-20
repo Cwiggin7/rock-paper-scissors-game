@@ -53,7 +53,7 @@ class Game {
             this.clear()
         }
         else if (this.computerScore === 5) {
-            resultsText.innerText = 'The computer won the game - better luck next time'
+            resultsText.innerText = 'The computer won the game - better luck next time.'
             this.clear()
         }
     }
