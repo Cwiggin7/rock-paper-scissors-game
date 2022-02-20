@@ -10,7 +10,7 @@ body {
     background-color: #212121;
 }
 
-#container {
+#starter-container {
     height: 100vh;
     display: flex;
     align-items: center;
@@ -38,4 +38,46 @@ body {
 #start-button:hover {
     background-color: rgba(255, 255, 255, .8);
     transform: scale(1.1);
+}
+
+#game-container {
+    height: 100vh;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+#scores-container {
+    display: flex;
+    color: white;
+    gap: 120px;
+    font-size: 1.5rem;
+}
+
+#choices-container {
+    display: flex;
+    gap: 40px;
+}
+
+#choices-container div {
+    cursor: pointer;
+    background-color: #f7f7f7;
+    padding: 120px 60px;
+    font-size: 2rem;
+    font-weight: 500;
+    border-radius: 12px;
+}
+
+#choices-container div:hover {
+    background-color: rgba(255, 255, 255, .8);
+}
+
+#round-text {
+    color: white;
+    font-size: 1.25rem;
+    width: 33%;
+    word-wrap: break-word;
+    text-align: center;
 }
